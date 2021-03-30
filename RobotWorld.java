@@ -18,11 +18,12 @@ public class RobotWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 800, 1); 
         
-        addObject( new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(600));
-        addObject( new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(600));
-        addObject( new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(600));
-        addObject( new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(600));
-        addObject( new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(600));
+        addObject( new Pizza(), 400, 500);
+        addObject( new Pizza(), 500, 390); 
+        addObject( new Pizza(), 531, 199);
+        addObject( new Pizza(), 50, 30);
+        addObject( new Pizza(), 60, 600);
+        addObject( new Pizza(), 500, 60);
         
         addObject( new Robot(), 30, 30); 
         addObject( new Wall(), 55, 173); 
